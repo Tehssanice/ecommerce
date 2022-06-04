@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 1px 20px;
+}
+
+header .box ul {
+    padding-left: 0;
+}
+
+header .box ul li i:last-child {
+    padding-left: 15px;
+}
+
+.container nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 254, 253);
+    transition: all 0.5s;
+    top: 0px;
+    z-index: 1;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 0.6em;
+}
+
+nav {
+    display: flex;
+    height: 380px;
+    justify-content: space-around;
+}
+
+.menu {
+    height: 60px;
+    display: block;
+    border: none;
+    background-color: transparent;
+}
+
+.menu>i {
+    font-size: large;
+}
+
+nav .box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .box:nth-child(3) {
+    width: 15%;
+}
+
+.initial {
+    width: 60%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 0;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 46, 46);
+}
+
+.size {
+    width: 20%;
+}
+
+.size img {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+
+.row .box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row .box ul:last-child {
+    display: flex;
+}
+
+.pictures ul {
+    display: flex;
+}
+
+.cover {
+    width: 300px;
+}
+
+.cover img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.column {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.info ul li i:last-child{
+   padding-left: 10px;
+}
+
+.container form {
+    width: 70%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
