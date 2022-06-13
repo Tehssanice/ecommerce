@@ -1,3 +1,582 @@
-*{
-    
+@media screen and (max-width:480px) {
+
+    nav .initial>ul {
+        flex-direction: column;
+        width: unset;
+        padding: 20px;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: none;
+    }
+
+    nav .initial li>a {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-family: monospace;
+    }
+
+
+    .blanket {
+        height: 250px;
+    }
+
+    .container nav {
+        justify-content: space-evenly;
+        height: 55px;
+    }
+
+    nav .box:nth-child(3) {
+        width: 35%;
+    }
+
+    nav ul {
+        font-size: 13px;
+    }
+
+    .show {
+        display: flex;
+        padding-left: 90px;
+        margin-top: 25px;
+    }
+
+    .initial {
+        width: 10%;
+    }
+
+    nav .box {
+        justify-content: space-between;
+    }
+
+    .menu {
+        width: 10%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .hide-on-desktop {
+        display: block;
+    }
+
+    .margin {
+        margin-left: 140px;
+    }
+
+    .size {
+        width: 50%;
+    }
+
+    .filled {
+        position: sticky;
+        padding-left: 6%;
+    }
+
+    .search {
+        font-size: 15px;
+        border: none;
+        padding-left: 3%;
+        padding-top: 5%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+
+    .row .box {
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px 5px;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .footer .right {
+        display: none;
+    }
+
+    .footer .left {
+        width: 100%;
+        display: block;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .pictures {
+        margin-top: 30px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px !important;
+    }
+
+    .peach {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .cover {
+        width: 147px;
+        font-size: 13px;
+    }
+
+    .load {
+        width: 90%;
+        margin: 15px;
+    }
+
+    .flex {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .info {
+        margin-right: 40%;
+    }
+
+    .underline {
+        width: 100%;
+    }
+
+    .hidden li {
+        padding-top: 18px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:800px) {
+    nav .initial>ul {
+        flex-direction: column;
+        width: unset;
+        padding: 20px;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: none;
+    }
+
+    nav .initial li>a {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-family: monospace;
+    }
+
+    .menu>i {
+        font-size: 28px;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .blanket {
+        height: 250px;
+    }
+
+    .container nav {
+        justify-content: space-evenly;
+        height: 90px;
+    }
+
+    nav .box:nth-child(3) {
+        width: 35%;
+    }
+
+    nav ul {
+        font-size: 18px;
+    }
+
+    .show {
+        display: flex;
+        padding-left: 65%;
+        margin-top: 30px;
+    }
+
+    .initial {
+        width: 10%;
+    }
+
+    .lane p {
+        font-size: 20px;
+    }
+
+    nav .box {
+        justify-content: space-between;
+        font-size: 25px;
+    }
+
+    .menu {
+        width: 10%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .hide-on-desktop {
+        display: block;
+    }
+
+    .margin {
+        margin-left: 308px;
+        margin-top: 10px;
+    }
+
+    .size {
+        width: 40%;
+        margin-left: 100px;
+    }
+
+    .filled {
+        position: sticky;
+        font-size: 22px;
+        padding-left: 5%;
+    }
+
+    .search {
+        font-size: 17px;
+        border: none;
+        padding-left: 3%;
+        padding-top: 5%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding: 5px;
+    }
+
+    .row .box {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 20px;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px 5px;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .footer .right {
+        display: none;
+    }
+
+    .footer .left {
+        width: 100%;
+        display: block;
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .pictures {
+        margin-top: 30px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px !important;
+    }
+
+    .peach {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .cover {
+        width: 225px;
+        font-size: 20px;
+    }
+
+    .load {
+        width: 90%;
+        margin: 30px;
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .flex {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .info {
+        margin-right: 40%;
+        font-size: 20px;
+    }
+
+    .underline {
+        width: 100%;
+    }
+
+    select {
+        font-size: 20px;
+    }
+
+    .menutab {
+        font-size: 25px;
+    }
+
+    .hidden {
+        font-size: 25px;
+    }
+
+    .hidden li {
+        padding-top: 28px;
+    }
+
+    .btn {
+        font-size: 25px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header {
+        padding: 3px 30px;
+    }
+
+    header .box ul {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (min-width:801px) and (max-width:1024px) {
+    nav .initial>ul {
+        flex-direction: column;
+        width: unset;
+        padding: 20px;
+        background-color: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        display: none;
+    }
+
+    nav .initial li>a {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-family: monospace;
+    }
+
+    .menu>i {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    .blanket {
+        height: 250px;
+    }
+
+    .container nav {
+        justify-content: space-evenly;
+        height: 89px;
+    }
+
+    nav .box:nth-child(3) {
+        width: 35%;
+    }
+
+    nav ul {
+        font-size: 18px;
+    }
+
+    .show {
+        display: flex;
+        padding-left: 80%;
+        margin-top: 29px;
+    }
+
+    .initial {
+        width: 10%;
+        margin-left: 5%;
+    }
+
+    .lane p {
+        font-size: 22px;
+    }
+
+    nav .box {
+        justify-content: space-between;
+        font-size: 25px;
+    }
+
+    .menu {
+        width: 10%;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .hide-on-desktop {
+        display: block;
+    }
+
+    .margin {
+        margin-left: 308px;
+        margin-top: 10px;
+    }
+
+    .size {
+        width: 50%;
+        padding-left: 20%;
+    }
+
+    .filled {
+        position: sticky;
+        font-size: 25px;
+    }
+
+    .search {
+        font-size: 20px;
+        border: none;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        padding: 5px;
+        margin-left: 5%;
+    }
+
+    .row .box {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        font-size: 20px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 15px 5px;
+        text-align: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .footer .right {
+        display: none;
+    }
+
+    .footer .left {
+        width: 100%;
+        display: block;
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .pictures {
+        margin-top: 30px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px !important;
+    }
+
+    .peach {
+        margin-bottom: 25px;
+        width: 100%;
+    }
+
+    .cover {
+        width: 380px;
+        font-size: 22px;
+    }
+
+    .load {
+        width: 90%;
+        margin: 30px;
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    .flex {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .info {
+        margin-right: 40%;
+        font-size: 25px;
+    }
+
+    .underline {
+        width: 100%;
+    }
+
+    select {
+        font-size: 20px;
+    }
+
+    .menutab {
+        font-size: 20px;
+    }
+
+    .hidden {
+        font-size: 20px;
+    }
+
+    .hidden li {
+        padding-top: 28px;
+    }
+
+    .btn {
+        font-size: 22px;
+        width: 40px;
+        height: 40px;
+    }
+
+    header {
+        padding: 3px 40px;
+    }
+
+    header .box ul {
+        font-size: 20px;
+    }
 }
